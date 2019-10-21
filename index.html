@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Broom</title>
+        <style type="text/css">
+            
+                @font-face{
+                font-family:"Coochie";
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.eot");
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.svg");
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.ttf");
+                src:url("fonts/CoochieNandoNFW01Regular/CoochieNandoNFW01Regular.woff");
+            }
+                    
+                *{
+                    font-family: "Coochie";
+                    margin: 0;
+                    padding: 0;
+            }
+                    body>p{ 
+                    font-size: 18vw;
+                    position: fixed;
+            }
+            p[title="b"]{
+                top: 0;
+                right: 0;
+            }
+            p[title="b2"]{ 
+                top: 0;
+                left: 0;
+                
+            }
+            p[title="m"]{
+                bottom: 0;
+                left: 0;
+            }
+            p[title="m2"]{
+                bottom: 0;
+                right: 0;
+            }
+            p[title="o"]{
+                bottom: 40%;
+                right: 44%;
+                transform: rotate(180deg);
+            }
+            div[title="car"] p{
+                font-family: "Garamond";
+                font-size: 5vw;
+            }
+            div p:first-child{
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 30px;
+            }
+            div p:last-child{
+                position: absolute;
+                right: 0;
+                top:0;
+                font-size: 120px;
+            }
+            div[title="c1"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 0;
+                left: 45%;
+            }
+            div[title="c2"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 45%;
+                left: 0;
+                transform: rotate(180deg);
+            }
+            div[title="c3"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 45%;
+                right: 0;
+                transform: scale(-1,1);
+            }
+            div[title="c4"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                bottom: 5%;
+                right: 45%;
+            }
+            div[title="R"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 20%;
+                right: 21%;
+                transform: rotate(180deg);
+            }
+            div[title="R2"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                top: 20%;
+                left: 21%;
+            }
+            div[title="o"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                bottom: 20%;
+                left: 21%;
+                transform: rotate(180deg);
+            }
+            div[title="o2"]{
+                position: fixed;
+                width: 100px;
+                height: 100px;
+                bottom: 20%;
+                right: 21%;
+            }
+        </style>
+    </head>
+    <body>
+        <p title="b">B</p>
+        <p title="b2">B</p>
+        <p title="o">O</p>
+        <p title="m">M</p>
+        <p title="m2">M</p>
+        <div title="car">
+            <div title="c1">
+                <p>vol.</p>
+                <p>6</p>
+            </div>
+            <div title="c2">
+                <p>vol.</p>
+                <p>1</p>
+            </div>
+            <div title="c3">
+                <p>vol.</p>
+                <p>6</p>
+            </div>
+            <div title="c4">
+                <p>vol.</p>
+                <p>1</p>
+            </div>
+        </div>
+        <div title="car2">
+            <div title="R">
+            <p>R</p>
+            </div>
+            <div title="R2">
+            <p>R</p>
+            </div><div title="o">
+            <p>O</p>
+            </div><div title="o2">
+            <p>O</p>
+            </div>
+        </div>
+    </body>
+</html>
